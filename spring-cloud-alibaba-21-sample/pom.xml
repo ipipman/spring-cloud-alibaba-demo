@@ -15,7 +15,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>coupon-server-coupon</module>
+        <module>coupon-template-serv</module>
     </modules>
 
     <properties>
