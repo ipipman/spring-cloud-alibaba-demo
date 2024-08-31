@@ -17,7 +17,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>coupon-template-api</module>
+        <module>coupon-template-serv-api</module>
     </modules>
 
     <properties>

@@ -9,10 +9,10 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>coupon-template-api</artifactId>
+    <artifactId>coupon-template-serv-api</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>coupon-template-api</name>
-    <description>coupon-template-api</description>
+    <name>coupon-template-serv-api</name>
+    <description>coupon-template-serv-api</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
