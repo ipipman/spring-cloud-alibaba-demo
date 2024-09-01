@@ -61,7 +61,7 @@ public class CouponTemplate implements Serializable {
     private Long shopId;
 
     @Column(name = "description", nullable = false)
-    private String desc;
+    private String description;
 
     // 优惠券类型
     @Column(name = "type", nullable = false)
