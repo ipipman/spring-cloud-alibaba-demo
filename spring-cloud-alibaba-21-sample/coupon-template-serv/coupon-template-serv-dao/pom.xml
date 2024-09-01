@@ -6,7 +6,7 @@
         <groupId>io.github.ipipman</groupId>
         <artifactId>coupon-template-serv</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+<!--        <relativePath>../pom.xml</relativePath>-->
     </parent>
 
     <artifactId>coupon-template-serv-dao</artifactId>

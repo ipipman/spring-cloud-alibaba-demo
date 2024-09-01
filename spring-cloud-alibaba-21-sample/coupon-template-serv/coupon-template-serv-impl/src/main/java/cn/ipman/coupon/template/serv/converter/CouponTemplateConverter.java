@@ -1,4 +1,4 @@
-package cn.ipman.coupon.template.serv.impl.converter;
+package cn.ipman.coupon.template.serv.converter;
 
 import cn.ipman.coupon.template.api.beans.CouponTemplateInfo;
 import cn.ipman.coupon.template.serv.dao.entity.CouponTemplate;
@@ -19,7 +19,7 @@ public class CouponTemplateConverter {
      * @param template CouponTemplate实体，从数据库查询所得
      * @return CouponTemplateInfo对象，用于API响应
      */
-    public static CouponTemplateInfo convertToCouponTemplateInfo(CouponTemplate template) {
+    public static CouponTemplateInfo convertToTemplateInfo(CouponTemplate template) {
         return CouponTemplateInfo.builder()
                 .id(template.getId())
                 .name(template.getName())
