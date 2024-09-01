@@ -12,6 +12,7 @@ public interface CouponTemplateService {
     // 创建优惠券模板
     CouponTemplateInfo createTemplate(CouponTemplateInfo request);
 
+    // 克隆优惠卷模版
     CouponTemplateInfo cloneTemplate(Long templateId);
 
     // 模板查询（分页）
