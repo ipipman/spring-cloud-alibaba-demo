@@ -22,6 +22,7 @@ import java.util.Date;
  * @Date 2024/9/1 21:04
  */
 @Data
+@SuppressWarnings("all")
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
