@@ -4,25 +4,35 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.ipipman</groupId>
-        <artifactId>coupon-server</artifactId>
+        <artifactId>coupon-customer-serv</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>coupon-customer-serv</artifactId>
+    <artifactId>coupon-customer-serv-api</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>coupon-customer-serv</name>
-    <description>coupon-customer-serv</description>
-
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>coupon-customer-serv-api</module>
-    </modules>
+    <name>coupon-customer-serv-api</name>
+    <description>coupon-customer-serv-api</description>
 
     <properties>
+        <java.version>8</java.version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>io.github.ipipman</groupId>
+            <artifactId>coupon-template-serv-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>
