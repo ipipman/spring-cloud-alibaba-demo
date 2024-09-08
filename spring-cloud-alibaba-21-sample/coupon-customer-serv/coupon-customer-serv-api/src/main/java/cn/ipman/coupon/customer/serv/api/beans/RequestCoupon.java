@@ -1,5 +1,9 @@
 package cn.ipman.coupon.customer.serv.api.beans;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.validation.constraints.NotNull;
 
 /**
@@ -9,6 +13,9 @@ import javax.validation.constraints.NotNull;
  * @Author IpMan
  * @Date 2024/9/8 22:00
  */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class RequestCoupon {
 
     /**

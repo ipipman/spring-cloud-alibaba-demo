@@ -19,6 +19,7 @@
     <modules>
         <module>coupon-customer-serv-api</module>
         <module>coupon-customer-serv-dao</module>
+        <module>coupon-customer-serv-impl</module>
     </modules>
 
     <properties>
