@@ -1,0 +1,59 @@
+### 1. 请求优惠券 (requestCoupon)
+POST http://localhost:20001/coupon-customer/requestCoupon
+Content-Type: application/json
+
+{
+  "userId": 111,
+  "couponTemplateId": 1001
+}
+
+### 2. 删除优惠券 (deleteCoupon)
+DELETE http://localhost:20001/coupon-customer/deleteCoupon?userId=111&couponId=12
+
+### 3. 模拟订单价格 (simulateOrder)
+POST http://localhost:20001/coupon-customer/simulateOrder
+Content-Type: application/json
+
+{
+  "userId": 111,
+  "products": [
+    {
+      "productId": 444,
+      "price": 1000,
+      "count": 2,
+      "shopId": 555
+    }
+  ],
+  "couponIDs": [
+    13
+  ]
+}
+
+### 4. 结算购物车 (placeOrder)
+POST http://localhost:20001/coupon-customer/placeOrder
+Content-Type: application/json
+
+
+{
+  "products": [
+    {
+      "productId": 444,
+      "price": 1000,
+      "count": 2,
+      "shopId": 555
+    }
+  ],
+  "userId": 111,
+  "couponId": 13,
+  "cost": 300
+}
+
+### 5. 查找优惠券 (findCoupon)
+POST http://localhost:20001/coupon-customer/findCoupon
+Content-Type: application/json
+
+{
+  "userId": 111,
+  "couponStatus": 2,
+  "templateId": 1001
+}

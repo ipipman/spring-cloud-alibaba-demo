@@ -24,7 +24,7 @@ Content-Type: application/json
 POST http://localhost:20000/template/cloneTemplate HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
-id=1
+id=1001
 
 
 ### 3. 读取优惠券 (getTemplate)
@@ -51,5 +51,5 @@ Content-Type: application/json
 DELETE http://localhost:20000/template/deleteTemplate HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
-id=1
+id=1002
 

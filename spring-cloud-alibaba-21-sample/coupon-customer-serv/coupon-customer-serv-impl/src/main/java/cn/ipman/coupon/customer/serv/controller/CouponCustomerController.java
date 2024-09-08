@@ -23,6 +23,7 @@ public class CouponCustomerController {
     @Autowired
     private CouponCustomerService customerService;
 
+    // 查询优惠券
     @PostMapping("requestCoupon")
     public Coupon requestCoupon(@Valid @RequestBody RequestCoupon request) {
         return customerService.requestCoupon(request);
