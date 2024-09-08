@@ -4,7 +4,7 @@ import cn.ipman.coupon.customer.serv.dao.entity.Coupon;
 import cn.ipman.coupon.template.api.beans.CouponInfo;
 
 /**
- * 优惠券转换
+ * 优惠券转换, BO->PO
  *
  * @Author IpMan
  * @Date 2024/9/8 22:38
